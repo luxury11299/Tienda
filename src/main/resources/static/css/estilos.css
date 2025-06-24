@@ -1,4 +1,5 @@
 /*selector de IDs*/
+/*Bootstrap*/
 
 #encabezado {
     top: 0;
@@ -45,4 +46,51 @@
     position: fixed;
     text-align : center;
     background-color: dimgray;
+}
+
+/*las clases se pueden usar en mas de uno*/
+/*si hay conflicto la prioridad va en orden seguns en el css*/
+
+.parrafoBlanco{
+    color: white;
+}
+.parrafoCentrado{
+    text-align: center
+}
+
+.parrafoRojo{
+    color: red
+}
+
+/*p{ Esto es para todos los elementos
+    font-size: 20px;
+}*/
+
+/*div.parrafoRojo p {
+    font-size: 15px;
+}*/
+
+/*el asterisco es para decir que todo*/
+
+* {
+    font-size: 20px
+}
+
+body{
+    background-color: chartreuse
+}
+
+a:visited{
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: chocolate;
+    color: white;
+    transition: 1s;
+}
+
+a:active{
+    background-color: purple;
+    color: white
 }
