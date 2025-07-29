@@ -24,6 +24,7 @@ public class CategoriaServiceImpl implements CategoriaService {
             lista.removeIf(e -> !e.isActivo());
         }
         return lista;
+
     }
 
     @Override
